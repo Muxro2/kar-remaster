@@ -5,7 +5,7 @@ import headshot from '@/public/images/contactPage/headshot.jpeg'
 export default function ContactPage () {
 
 
-      async function handleSubmit(event) {
+      async function handleSubmit(event:any) {
           event.preventDefault();
           const formData = new FormData(event.target);
 
