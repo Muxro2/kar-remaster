@@ -1,12 +1,17 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import { getAlbums } from '@/lib/getAlbums'
 
-export default function Collection() {
+export default async function CollectionShort({id}: {id: string}) {
+    const collections = await getAlbums()
+    const links = collections[id]
+
     return(
         <div className="relative flex w-[100vw]">
             <div className="bg-gray-500 flex">
                 <div className="flex flex-1">
                 <Image
-                src="https://res.cloudinary.com/dmkz7axbh/image/upload/v1753739510/b95e7205-c5b4-497e-9d04-d79dc5b6eba4_rw_3840_kqlzab.jpg"
+                src={links[3]}
                 alt="photo"
                 width={600}
                 height={300}
@@ -14,7 +19,7 @@ export default function Collection() {
                 </div>
                 <div className="flex flex-1">
                 <Image
-                src="/images/photoWheel/photo4.jpg"
+                src={links[4]}
                 alt="photo"
                 width={600}
                 height={300}
@@ -23,7 +28,7 @@ export default function Collection() {
                 </div>
             
             </div>
-            <div className="absolute bottom-0 bg-black/50 w-[100%] h-10 px-5 py-1 flex justify-between">
+            <div className="absolute bottom-0 bg-black/70 w-[100%] h-10 px-5 py-1 flex justify-between">
                 <h2 className="text-amber-500 text-2xl font-serif">Wild West</h2>
                 <h2 className="text-amber-500 text-xl font-serif">2024</h2>
             </div>

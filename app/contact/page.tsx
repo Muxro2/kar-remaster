@@ -43,10 +43,10 @@ export default function ContactPage () {
         </h2>
       
 
-        <form onSubmit={handleSubmit}>
-          <input type="text" name="name"/>
-          <input type="email" name="email"/>
-          <textarea name="message"></textarea>
+        <form onSubmit={/*handleSubmit*/()=> []}>
+          <input type="text" name="name" placeholder='name' />
+          <input type="email" name="email" placeholder='email'/>
+          <textarea name="message" placeholder='message'></textarea>
           <button type="submit">Submit Form</button>
         </form>
       </>
