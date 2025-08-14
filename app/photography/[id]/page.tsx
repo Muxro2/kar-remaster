@@ -5,7 +5,14 @@ import {getAlbums} from '@/lib/getAlbums'
 
 export async function generateStaticParams() {
   return [
-    {id: 'wildwest'}
+    {id: 'wildwest'},
+    {id: 'artgallery'},
+    {id: 'mayordavis'},
+    {id: 'portraits'},
+    {id: 'studio'},
+    {id: 'animals'},
+    {id: 'nature'},
+    {id: 'appleproject'}
   ]
 }
 
