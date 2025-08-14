@@ -3,16 +3,20 @@ import Link from "next/link"
 import { promises as fs } from 'fs'
 import {getAlbums} from '@/lib/getAlbums'
 
-type PageProps = {
-  params: {
-    id: string
-  }
+export async function generateStaticParams() {
+  return [
+    {id: 'wildwest'}
+  ]
 }
 
-export default async function PhotographyGallery({params}: any) {
+export default async function PhotographyGallery({
+  params
+}: {
+  params: Promise<{ id: string }>
+}) {
 
 const collections = await getAlbums()
-  const { id } = params
+  const { id } = await params
 
   if (!collections[id]) return <p>Album not found</p>
   const links = collections[id].slice(2)
