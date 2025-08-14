@@ -10,7 +10,9 @@ export default function PhotographyPage () {
             <Link href='/photography/wildwest'>
             <Collection></Collection>
             </Link>
+            <Link href='/photography/artgallery'>
             <Collection></Collection>
+            </Link>
             <CollectionShort></CollectionShort>
             <CollectionShort></CollectionShort>
             <Collection></Collection>
