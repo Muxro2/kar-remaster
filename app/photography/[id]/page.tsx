@@ -14,6 +14,7 @@ export default async function PhotographyGallery({params}: any) {
 const collections = await getAlbums()
   const { id } = params
 
+  if (!collections[id]) return <p>Album not found</p>
   const links = collections[id].slice(2)
 
   return (
