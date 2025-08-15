@@ -30,9 +30,12 @@ const collections = await getAlbums()
 
   return (
         <>
-        <Link href='/photography' className='absolute pt-3 text-sm font-light'>Back</Link>
-        <h1 className="text-center p-2 text-2xl">{collections[id][0]} - {collections[id][1]}</h1>
-      <div className="flex flex-wrap gap-0.5 justify-center">
+        <div className="relative pl-5 pt-8 mb-13 w-max h-max" >
+        <h1 className=" text-white text-4xl font-serif font-bold">{collections[id][0].toUpperCase()}</h1>
+        <h1 className="z-[-1] absolute bottom-[-30] right-[-100] text-neutral-400 text-7xl font-serif">{collections[id][1]}</h1>
+        </div>
+        <div className='bg-white h-0.5 w-[60%] ml-auto'></div>
+      <div className="mx-auto w-[80vw] flex flex-wrap gap-1 justify-center bg-black py-1 px-2">
       {links.map((src: string, i: number) => (
         <Image 
         key={i} 
