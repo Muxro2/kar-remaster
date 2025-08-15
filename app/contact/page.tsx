@@ -9,7 +9,7 @@ export default function ContactPage () {
           event.preventDefault();
           const formData = new FormData(event.target);
 
-          formData.append("access_key", "c365b7a4-1c1b-4e0b-8a44-418ba071b672");
+          formData.append("access_key", "721d68de-1637-4471-8dd9-e39f481077d6");
 
           const object = Object.fromEntries(formData);
           const json = JSON.stringify(object);
@@ -43,7 +43,7 @@ export default function ContactPage () {
         </h2>
       
 
-        <form onSubmit={/*handleSubmit*/()=> []}>
+        <form onSubmit={handleSubmit}>
           <input type="text" name="name" placeholder='name' />
           <input type="email" name="email" placeholder='email'/>
           <textarea name="message" placeholder='message'></textarea>
