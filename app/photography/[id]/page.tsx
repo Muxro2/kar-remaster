@@ -35,7 +35,7 @@ const collections = await getAlbums()
         <h1 className="z-[-1] absolute bottom-[-30] right-[-100] text-neutral-400 text-7xl font-serif">{collections[id][1]}</h1>
         </div>
         <div className='bg-white h-0.5 w-[60%] ml-auto'></div>
-      <div className="mx-auto w-[80vw] flex flex-wrap gap-1 justify-center bg-black py-1 px-2">
+      <div className="mx-auto my-10 w-[80vw] flex flex-wrap gap-1 justify-center bg-black py-1 px-2">
       {links.map((src: string, i: number) => (
         <Image 
         key={i} 

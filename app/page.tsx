@@ -25,14 +25,6 @@ export default function Home() {
 
                   <div className="h-10"></div>
 
-                  <div className="h-35 bg-black pl-4 pt-6">
-                        <h2 className="text-xl font-bold">
-                              Karina Prezeau
-                        </h2>
-                        <h2 className="text-lg">
-                              Photography & Graphic Design
-                        </h2>
-                  </div>
             </div>
       );
 }

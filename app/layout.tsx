@@ -24,6 +24,14 @@ export default function RootLayout({children}: {children: ReactNode}) {
         <main className='relative z-10'>
           {children}
         </main>
+                          <div className="h-35 bg-black pl-4 pt-6">
+                        <h2 className="text-xl font-bold">
+                              Karina Prezeau
+                        </h2>
+                        <h2 className="text-lg">
+                              Photography & Graphic Design
+                        </h2>
+                  </div>
       </body>
     </html>
   );
