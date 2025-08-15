@@ -9,14 +9,14 @@ export default function PhotographyPage () {
 
     return (
         <div className="bg-black w-[100vw] flex flex-wrap gap-0.5">
-            <Collection id='wildwest'></Collection>
-            <Collection id='artgallery'></Collection>
-            <CollectionShort id='mayordavis'></CollectionShort>
-            <CollectionShort id='portraits'></CollectionShort>
-            <Collection id='studio'></Collection>
-            <Collection id='animals'></Collection>
-            <CollectionShort id='nature'></CollectionShort>
-            <CollectionShort id='appleproject'></CollectionShort>
+            <Collection id='wildwest' reverse={false}></Collection>
+            <Collection id='artgallery' reverse={true}></Collection>
+            <CollectionShort id='mayordavis' reverse={false}></CollectionShort>
+            <CollectionShort id='portraits' reverse={true}></CollectionShort>
+            <Collection id='studio' reverse={false}></Collection>
+            <Collection id='animals' reverse={true}></Collection>
+            <CollectionShort id='nature' reverse={false}></CollectionShort>
+            <CollectionShort id='appleproject' reverse={true}></CollectionShort>
         </div>
     )
 } 

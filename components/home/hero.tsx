@@ -34,7 +34,7 @@ export default function Hero() {
 							/>
 			</div>
 
-			<div className="w-full flex gap-2 py-1">
+			<div className="w-full flex gap-1 pt-1">
 				<div className="flex-1">
 					<Image
 						src={reelPhoto1}

@@ -2,13 +2,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { getAlbums } from '@/lib/getAlbums'
 
-export default async function Collection({id}: {id: string}) {
+export default async function Collection({id, reverse}: {id: string, reverse: boolean}) {
     const collections = await getAlbums()
     const links = collections[id]
 
     return(
         <Link href={`/photography/${id}`}>
-            <div className="relative flex w-[100vw] gap-0.5">
+            <div className={`relative flex w-[100vw] gap-0.5 ${reverse ? 'flex-row-reverse' : 'flex-row'}`}>
                 <div className="bg-gray-500 flex-3">
                     <Image
                     src={links[3]}
@@ -41,10 +41,8 @@ export default async function Collection({id}: {id: string}) {
                     layout="responsive"
                     />
                 </div>
-                <div className="absolute bottom-0 bg-black/70 w-[100%] h-10 px-5 py-1 flex justify-between">
-                    <h2 className="text-amber-500 text-2xl font-serif">{links[0]}</h2>
-                    <h2 className="text-amber-500 text-xl font-serif">{links[1]}</h2>
-                </div>
+                    <h2 className="absolute drop-shadow-[0px_3.2px_0px_rgba(0,0,0,1)] z-10 bottom-[-20] px-5 text-white text-4xl font-serif font-bold">{links[0].toUpperCase()}</h2>
+
             </div>
         </Link>
     )

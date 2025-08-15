@@ -8,7 +8,8 @@ import photoWheel5 from "@/public/images/photoWheel/photo5.jpg";
 
 export default function PhotoReel() {
 	return (
-		<div className="h-28 overflow-hidden flex gap-2">
+		<div className="overflow-hidden bg-black">
+			<div className="animate-scroll w-max h-28 flex gap-1 py-1">
 			<Image
 				src={photoWheel1}
 				alt="photo"
@@ -40,6 +41,39 @@ export default function PhotoReel() {
 				placeholder="blur"
 				className="h-[100%] w-auto"
 			/>
+
+						<Image
+				src={photoWheel1}
+				alt="photo"
+				priority
+				placeholder="blur"
+				className="h-[100%] w-auto"
+			/>
+
+			<Image
+				src={photoWheel2}
+				alt="photo"
+				priority
+				placeholder="blur"
+				className="h-[100%] w-auto"
+			/>
+
+			<Image
+				src={photoWheel3}
+				alt="photo"
+				priority
+				placeholder="blur"
+				className="h-[100%] w-auto"
+			/>
+
+			<Image
+				src={photoWheel4}
+				alt="photo"
+				priority
+				placeholder="blur"
+				className="h-[100%] w-auto"
+			/>
+			</div>
 		</div>
 	);
 }
