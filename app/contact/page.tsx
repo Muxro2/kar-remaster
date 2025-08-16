@@ -29,8 +29,22 @@ export default function ContactPage () {
       }
 
     return (
-        <>
-        <div className="w-[50%] ">
+      <>
+        <div className="relative h-60 w-full overflow-y-hidden z-[-1]">
+          <h2 className='absolute z-1 w-[40%] right-5 pt-7 font-bold'>
+            I’m a Florida-based photographer and designer passionate about bringing creative stories to life.
+          </h2>
+          <Image
+            src='/images/photoWheel/photo1.jpg'
+            alt=''
+            fill
+            className='blur-xs object-cover'
+          />
+        </div>
+
+
+            <div className="relative w-[50%] mt-[-40%]">
+            <h2 className='absolute top-[45%] right-[-75%] text-6xl font-serif italic'>Karina</h2>
             <Image
                 src={headshot}
                 alt="headshot"
@@ -38,14 +52,17 @@ export default function ContactPage () {
                 height={500}
             />
         </div>
-        <h2>
-            I’m a Florida-based photographer and graphic designer with a passion for visual storytelling. Whether behind the camera or at the design desk, I love bringing creative ideas to life with a personal touch. If you’re interested in working together or just want to connect, I’d love to hear from you.
-        </h2>
+        
       
 
         <form onSubmit={handleSubmit}>
-          <input type="text" name="name" placeholder='name' />
-          <input type="email" name="email" placeholder='email'/>
+          <input type="text" name="name" placeholder='name' 
+          className='border-white border-2'
+          />
+          <input type="email" name="email" placeholder='email'
+          className='border-white border-2'
+          
+          />
           <textarea name="message" placeholder='message'></textarea>
           <button type="submit">Submit Form</button>
         </form>
