@@ -1,15 +1,16 @@
 import Image from "next/image"
 import Link from "next/link"
 import { promises as fs } from 'fs'
+import Data from '@/app/albums.json'
 import {getAlbums} from '@/lib/getAlbums'
 import DyImage from "@/components/dyImage"
 
 
 export async function generateStaticParams() {
-  const paths = Object.keys(getAlbums()).map((album) => {
-    {id: album}
+  const data = Data
+  const paths = Object.keys(Data.photography.collections).map((collection) => {
+    return {id: collection}
   })
-
   return paths
 }
 
