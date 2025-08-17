@@ -1,9 +1,19 @@
 import type { NextConfig } from "next";
+import withPlaiceholder from "@plaiceholder/next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['cdn.myportfolio.com','res.cloudinary.com']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.myportfolio.com'
+      },
+            {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com'
+      }
+    ]
   }
 };
 
-export default nextConfig;
+export default withPlaiceholder(nextConfig);

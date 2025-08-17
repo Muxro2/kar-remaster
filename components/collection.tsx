@@ -15,7 +15,9 @@ export default async function Collection({id, reverse}: {id: string, reverse: bo
                     alt="photo"
                     width={600}
                     height={300}
-                    layout='responsive'
+                             placeholder="blur"
+      blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjMiIC8+PC9zdmc+"
+
                     />
                 </div>
                 <div className="bg-gray-500 flex flex-col flex-1">
@@ -24,24 +26,30 @@ export default async function Collection({id, reverse}: {id: string, reverse: bo
                     alt="photo"
                     width={600}
                     height={300}
-                    layout="responsive"
+                             placeholder="blur"
+      blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjMiIC8+PC9zdmc+"
+
                     />
                     <Image
                     src={links[5]}
                     alt="photo"
                     width={600}
                     height={300}
-                    layout="responsive"
+                             placeholder="blur"
+      blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjMiIC8+PC9zdmc+"
+
                     />
                     <Image
                     src={links[6]}
                     alt="photo"
                     width={600}
                     height={300}
-                    layout="responsive"
+                             placeholder="blur"
+      blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjMiIC8+PC9zdmc+"
+
                     />
                 </div>
-                    <h2 className="absolute drop-shadow-[0px_3.2px_0px_rgba(0,0,0,1)] z-10 bottom-[-20] px-5 text-white text-4xl font-serif font-bold">{links[0].toUpperCase()}</h2>
+                    <h2 className="absolute drop-shadow-[0px_3.2px_0px_rgba(0,0,0,1)] z-10 -bottom-5 px-5 text-white text-4xl font-serif font-bold">{links[0].toUpperCase()}</h2>
 
             </div>
         </Link>

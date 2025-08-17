@@ -2,18 +2,15 @@ import Image from "next/image"
 import Link from "next/link"
 import { promises as fs } from 'fs'
 import {getAlbums} from '@/lib/getAlbums'
+import DyImage from "@/components/dyImage"
+
 
 export async function generateStaticParams() {
-  return [
-    {id: 'wildwest'},
-    {id: 'artgallery'},
-    {id: 'mayordavis'},
-    {id: 'portraits'},
-    {id: 'studio'},
-    {id: 'animals'},
-    {id: 'nature'},
-    {id: 'appleproject'}
-  ]
+  const paths = Object.keys(getAlbums()).map((album) => {
+    {id: album}
+  })
+
+  return paths
 }
 
 export default async function PhotographyGallery({
@@ -32,7 +29,7 @@ const collections = await getAlbums()
         <>
         <div className="relative pl-5 pt-8 mb-13 w-max h-max" >
         <h1 className=" text-white text-4xl font-serif font-bold">{collections[id][0].toUpperCase()}</h1>
-        <h1 className="z-[-1] absolute bottom-[-30] right-[-100] text-neutral-400 text-7xl font-serif">{collections[id][1]}</h1>
+        <h1 className="z-[-1] absolute -bottom-8 -right-30 text-neutral-400 text-7xl font-serif">{collections[id][1]}</h1>
         </div>
         <div className='bg-white h-0.5 w-[60%] ml-auto'></div>
       <div className="mx-auto mb-10 w-[80vw] flex flex-wrap gap-1 justify-center bg-black py-1 px-2">
@@ -43,8 +40,9 @@ const collections = await getAlbums()
         alt={`photo ${i}`}
         width={300}
         height={100}
-        unoptimized
-        style={{ objectFit: 'contain' }}
+         placeholder="blur"
+      blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjMiIC8+PC9zdmc+"
+    
          />
       ))}
     </div>

@@ -41,6 +41,7 @@ export default function Hero() {
 						alt="spalshImage"
 						priority
 						placeholder="blur"
+						className="h-16 object-cover"
 					/>
 				</div>
 				<div className="flex-1">
@@ -49,6 +50,7 @@ export default function Hero() {
 						alt="spalshImage"
 						priority
 						placeholder="blur"
+						className="h-16 object-cover"
 					/>
 				</div>
 				<div className="flex-1">
@@ -57,6 +59,7 @@ export default function Hero() {
 						alt="spalshImage"
 						priority
 						placeholder="blur"
+						className="h-16 object-cover"
 					/>
 				</div>
 
