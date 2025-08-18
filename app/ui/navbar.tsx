@@ -27,14 +27,14 @@ export default function Navbar() {
     const pathname = usePathname()
 
     return(
-        <div className='relative w-[100vw] flex justify-around z-100 bg-black text-neutral-400'>
+        <div className='relative w-[100vw] h-10 lg:h-[5vh] flex justify-around z-100 bg-black lg:text-[3vh] text-neutral-400'>
             {links.map((link, i) => {
                 return (
                 <Link
                  key={i}
                  href={link.href} 
                  className={clsx(
-                    'flex-1 h-10 content-center text-center',
+                    'flex-1 content-center text-center',
                     {'bg-neutral-800' : pathname === link.href}
                 )}>
                     {link.title}

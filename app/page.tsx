@@ -9,13 +9,11 @@ export default function Home() {
             <div>
                   <Hero />
 
-                  <div className="h-35 w-full flex items-center justify-center">
-                        <div className="w-[60%] text-white text-2xl">
-                              <h2>Authentic imagery,</h2>
-                              <h2 className="text-right">refined design,</h2>
-                              <h2 className="text-center text-4xl">crafted with care.</h2>
+                        <div className="w-[60%] lg:w-[100vw] h-35 lg:h-[18vh] text-white text-2xl lg:text-[4vh] justify-self-center lg:justify-evenly content-center lg:flex">
+                              <h2 className="lg:content-center">Authentic imagery,</h2>
+                              <h2 className="text-right lg:content-center">refined design,</h2>
+                              <h2 className="text-center text-4xl lg:text-[4vh] lg:content-center">crafted with care.</h2>
                         </div>
-                  </div>
 
                   <PhotoReel />
 
