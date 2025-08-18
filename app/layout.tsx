@@ -1,12 +1,16 @@
 import '@/public/globals.css';
-import Navbar from '@/components/navbar'
+import Navbar from '@/app/ui/navbar'
 import { ReactNode } from 'react';
 import Image from 'next/image';
+import { font_primary } from '@/app/lib/fonts'
+
+
+
 
 export default function RootLayout({children}: {children: ReactNode}) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${font_primary.className} antialiased`}>
 
           <Navbar/>
 

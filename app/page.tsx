@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import Hero from "@/components/home/hero";
-import PhotoReel from '@/components/home/photoReel'
-import DesignReel from '@/components/home/designReel'
+import Hero from "@/app/ui/home/hero";
+import PhotoReel from '@/app/ui/home/photoReel'
+import DesignReel from '@/app/ui/home/designReel'
 
 export default function Home() {
       return (
@@ -10,10 +10,10 @@ export default function Home() {
                   <Hero />
 
                   <div className="h-35 w-full flex items-center justify-center">
-                        <div className="w-[60%] text-white text-lg font-serif">
+                        <div className="w-[60%] text-white text-2xl">
                               <h2>Authentic imagery,</h2>
                               <h2 className="text-right">refined design,</h2>
-                              <h2 className="text-center text-2xl">crafted with care.</h2>
+                              <h2 className="text-center text-4xl">crafted with care.</h2>
                         </div>
                   </div>
 

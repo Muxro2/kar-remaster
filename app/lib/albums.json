@@ -1,21 +1,6 @@
 {
-    "homepage": [
-    "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/2de398d7-1347-4d78-b5d3-a619df715656_rw_3840.jpg?h=f2d520bfd119c9026ccae276ee9b34ff",
-    "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f675479f-88da-49b7-8eda-648c64d36c2e_rw_1920.png?h=425e398c7b957f731494bef1d8a8b447"
-        
-    ],
-    "photography" : {
-        "featured" : [
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/c93c23b1-7375-467b-a23f-57f076d53a04_rw_3840.jpg?h=6a90a915907db4598406ae30915201de",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f8543f4e-c5b0-4533-97cf-54aa1aaa6393_rw_3840.jpg?h=fab336fc912e5365e2cbe385ca317e52",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/18e4796e-d89e-4875-9846-c45e875d2084_rw_3840.jpg?h=871d83a371e9b5ff6ce9f4b05c44d0d7",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/6d2dbdde-75b4-4e61-a978-4a8764919e5f_rw_3840.jpg?h=f8f5bf1d70172bdcf1d192bf7ccd67ec",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/3278da27-ebff-41cf-9848-7ddd1cca2727_rw_3840.jpg?h=2fb5cf01a9750d673c2d91053f11cd8a",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/81553c05-aeab-4743-8e87-bf21c3af0d77_rw_3840.jpg?h=4b9af40e6b910e1758a27a20646aadf9"
-            
-        ],
-        "collections": {
-          "wildwest": [
+    "photography": {
+        "wildwest": [
             "Wild West",
             "2024",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/2929ba6e-b083-4491-8074-05ee06367f53_rw_3840.jpg?h=9394cacd751048e7433ebe030e300f80&w=400&q=70",
@@ -32,8 +17,8 @@
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/6532fe5c-bf8f-41a7-8ae5-77174817a60b_rw_3840.jpg?h=b4b621faf876ed91c54bf3c26325bccd&w=400&q=70",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/81553c05-aeab-4743-8e87-bf21c3af0d77_rw_3840.jpg?h=4b9af40e6b910e1758a27a20646aadf9&w=400&q=70"
         ],
-        "artgallery": [
-            "Art Gallery",
+        "gallery": [
+            "Gallery",
             "2024",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/0b51ef26-8846-4896-a640-219e43bb90e0_rw_3840.jpg?h=ef6e8042c2baefa4f39a6c5f14dd748d&w=400&q=70",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/5ac42e12-5206-41a1-9844-a9f6674da23c_rw_3840.jpg?h=053d9a9126d6c20cb54fca0552c31fc9&w=400&q=70",
@@ -48,8 +33,8 @@
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/2cdfe51b-3619-453d-88b4-7ab9f1701d65_rw_3840.jpg?h=76f953f140ebebef0f1d5eee511f3b24&w=400&q=70",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/db82bc81-7177-475d-a6bf-dc82444bfce1_rw_3840.jpg?h=8a22faac984da9b177587cca5c14804e&w=400&q=70"
         ],
-        "mayordavis": [
-            "Mayor Davis",
+        "mayor": [
+            "Mayor",
             "2024",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/c93c23b1-7375-467b-a23f-57f076d53a04_rw_3840.jpg?h=6a90a915907db4598406ae30915201de&w=400&q=70",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/2a94444d-55fe-4949-bb5d-2f814ab59816_rw_3840.jpg?h=546194b74ad9f30173a67d74962e8748&w=400&q=70",
@@ -118,8 +103,8 @@
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/40878d61-b077-4582-88f1-156b56f47f95_rw_3840.jpg?h=04b957e1bf7e84e99aaabcdb703e1ea3&w=400&q=70",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/1ee49803-8380-4837-8e9c-cbc6559af215_rw_3840.jpg?h=3580916940e3aa8e798ddf5af082239f&w=400&q=70"
         ],
-        "appleproject": [
-            "Apple Project",
+        "apple": [
+            "Apple",
             "2024",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f905ba07-012a-4433-9559-5da9d490ab88_rw_3840.jpg?h=1c2c42b4f0c29041d2f23804f9f1bb20&w=400&q=70",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/017b0ed6-1609-4c78-a221-e9d1762cc068_rw_3840.jpg?h=2afbb2a694d1ec8d6deb4afd13054540&w=400&q=70",
@@ -131,99 +116,34 @@
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/3547812a-eb60-4b39-8865-5bfdd288de81_rw_3840.jpg?h=eef341f0ad14beeb48f6cb3c4efb2a8c&w=400&q=70",
             "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/90a98e8b-56a2-4b8e-9ffc-33c36a72e96f_rw_3840.jpg?h=a3824db0e0f7be36fec9a8e65b55662a&w=400&q=70"
         ]
-    }
     },
-    "design" : {
-        "featured": [
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/bfd7e8fb-f6a0-45b9-ac0c-6d3bd2278d74_rw_1920.png?h=c1be8db1637c24aa1ff8d059d0dd312e&w=400&q=70",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/05faee82-03aa-4974-a62e-a3144a7d9b4c_rw_1200.png?h=85da13d66f919d1b26777073f47615ca&w=400&q=70",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/38725499-ee9e-4d16-b4ae-4db4ccf9d34e_rw_3840.png?h=5a8723461a102f5e0d44c834cb57cbbf&w=400&q=70",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/941e8dcd-8d8e-41dd-9f98-8fb6f63de60a_rw_3840.png?h=878bbd145daf6462a7ec554459c5a239&w=400&q=70",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/d6864978-8206-4e31-97af-3a582ad114d7_rw_3840.png?h=8bbae64570981aa5a9021b384f8a1037&w=400&q=70",
-            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/fafb7ef0-d0e7-49c0-956a-3b4d7d2cbeb8_rw_3840.png?h=c12430461b679070e156ee959b2c4d6d&w=400&q=70"
-        ],
-        "collections": {
-            "beveragepackage" : [
-                "Beverage Package",
-                "2024",
-
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f4766af6-7fea-4fdc-b7dd-e34fc747cda9_rw_1920.png?h=daf21b80be4c1ac0f38492ffb3f38287"
-            ],
-            "typographicposter" : [
-                "Typographic Poster",
-                "2024",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/aed7f5a1-5692-4d48-a023-5307b077bef6_rw_1920.png?h=121201d6ad89b75b6b9d04760a6ab139"
-            ],
-            "annualreport" : [
-                "Annual Report",
-                "2024",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/ff312f3b-653d-4280-9bdc-d342913e9565_rw_1920.png?h=13858b77acee9d57cf0aff7393f55121"
-            ],
-            "polygonart" : [
-                "Polygon Art",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/fafb7ef0-d0e7-49c0-956a-3b4d7d2cbeb8_rw_3840.png?h=c12430461b679070e156ee959b2c4d6d"
-            ],
-            "death" : [
-                "Death",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/05faee82-03aa-4974-a62e-a3144a7d9b4c_rw_1200.png?h=85da13d66f919d1b26777073f47615ca"
-            ],
-            "texturedart" : [
-                "Textured Art",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/d6864978-8206-4e31-97af-3a582ad114d7_rw_3840.png?h=8bbae64570981aa5a9021b384f8a1037"
-            ],
-            "logodesign" : [
-                "Logo Design",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/d0d516b8-ca69-4b27-b1e3-2504094e733b_rw_3840.png?h=4df1fc964e0b2940ff0272a4a0ce3944",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/6951a945-b75a-478b-9d23-2c3a4442f954_rw_3840.png?h=714c9a633200559c102bf94e4edd2090",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/5c8fcf43-3bca-4310-bbba-1308d4f1cf27_rw_3840.png?h=a102409cb5525c9dce0256c6c0f4243e"
-            ],
-            "planetillustration" : [
-                "Planetary Illustration",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/941e8dcd-8d8e-41dd-9f98-8fb6f63de60a_rw_3840.png?h=878bbd145daf6462a7ec554459c5a239",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f6136b51-9a43-47c5-ae95-df3a7078623e_rw_3840.png?h=07a72ec7da11af89a6bee88afc029128"
-            ],
-            "gaminginfo" : [
-                "Gaming Infographic",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/38725499-ee9e-4d16-b4ae-4db4ccf9d34e_rw_3840.png?h=5a8723461a102f5e0d44c834cb57cbbf"
-            ],        
-            "animation" : [
-                "Animation",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/6193eb49-4210-4788-a0b9-4ee51cedb5f4_rw_1200.gif?h=f150e9e375620fa936f3a8cdccf8bd47",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/a936a465-8d10-4c4a-b26b-bed3686ced62_rw_1200.gif?h=0dcd81ceae27e89e4af079d81f4ce3e1"
-            ],
-            "imagemanipulation" : [
-                "Image Manipulation",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f7f193b1-8778-43af-b212-34fe2e02f64b_rw_1920.png?h=fe14460942d21e1f95684fe82cdd7fcb",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f675479f-88da-49b7-8eda-648c64d36c2e_rw_1920.png?h=425e398c7b957f731494bef1d8a8b447"
-            ],
-            "selfportrait" : [
-                "Digital Self Portrait",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/bcb4cc7c-963e-440f-a9ee-c77246bacb83_rw_1920.png?h=b4b1dac1f1ec8b798069fb7c5a7d410b"
-            ],
-            "webdesign" : [
-                "Web Design",
-                "2023",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/25df06a9-ad87-450a-a884-da59523fc8c8_rw_1920.png?h=3488f37b04cae864e0b7391af37b6628",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/51a5caf7-f6a4-456a-8493-9227201458b3_rw_1920.png?h=727114cb84c2d77727d7571ccb713cac",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/586f02d0-5e17-416f-9596-6bed026af97b_rw_1920.png?h=18995f039133caa02a8bfca625443d37",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f324df60-e7ed-40d4-ada7-6c72d77b0a1a_rw_1920.png?h=192295f36c15507f10868847583c78fc",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/8c723e2c-7894-4fc7-bfa1-1dba0f52120d_rw_1920.png?h=7ba1cef94b099f6ccbb006515f943cdb",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/fb72768e-3350-4f83-a32b-586fd62c4a13_rw_1920.png?h=a2360a3e41ed1288d3747dfae768956a",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/8aaf2be5-80ba-45a7-b6cb-0a51a6e73f6d_rw_1920.png?h=15fbd5cceee62dba082fe2c8668b4aac",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/b5fed19a-a6ca-48ff-adf3-52270f6c0c9b_rw_1920.png?h=2878d9b71f3ecd86b777366aabba3f2f",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/399c1b13-01cf-45b7-aa90-fe8d964245cc_rw_1920.png?h=c19350ad47216ddfae0a2fdb17041f3d",
-                "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/bfd7e8fb-f6a0-45b9-ac0c-6d3bd2278d74_rw_1920.png?h=c1be8db1637c24aa1ff8d059d0dd312e"
-            ]
-        }
-
-    }
+    "design": [
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f4766af6-7fea-4fdc-b7dd-e34fc747cda9_rw_1920.png?h=daf21b80be4c1ac0f38492ffb3f38287",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/aed7f5a1-5692-4d48-a023-5307b077bef6_rw_1920.png?h=121201d6ad89b75b6b9d04760a6ab139",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/ff312f3b-653d-4280-9bdc-d342913e9565_rw_1920.png?h=13858b77acee9d57cf0aff7393f55121",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/fafb7ef0-d0e7-49c0-956a-3b4d7d2cbeb8_rw_3840.png?h=c12430461b679070e156ee959b2c4d6d",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/05faee82-03aa-4974-a62e-a3144a7d9b4c_rw_1200.png?h=85da13d66f919d1b26777073f47615ca",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/d6864978-8206-4e31-97af-3a582ad114d7_rw_3840.png?h=8bbae64570981aa5a9021b384f8a1037",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/d0d516b8-ca69-4b27-b1e3-2504094e733b_rw_3840.png?h=4df1fc964e0b2940ff0272a4a0ce3944",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/6951a945-b75a-478b-9d23-2c3a4442f954_rw_3840.png?h=714c9a633200559c102bf94e4edd2090",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/5c8fcf43-3bca-4310-bbba-1308d4f1cf27_rw_3840.png?h=a102409cb5525c9dce0256c6c0f4243e",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/941e8dcd-8d8e-41dd-9f98-8fb6f63de60a_rw_3840.png?h=878bbd145daf6462a7ec554459c5a239",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f6136b51-9a43-47c5-ae95-df3a7078623e_rw_3840.png?h=07a72ec7da11af89a6bee88afc029128",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/38725499-ee9e-4d16-b4ae-4db4ccf9d34e_rw_3840.png?h=5a8723461a102f5e0d44c834cb57cbbf",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/6193eb49-4210-4788-a0b9-4ee51cedb5f4_rw_1200.gif?h=f150e9e375620fa936f3a8cdccf8bd47",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/a936a465-8d10-4c4a-b26b-bed3686ced62_rw_1200.gif?h=0dcd81ceae27e89e4af079d81f4ce3e1",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f7f193b1-8778-43af-b212-34fe2e02f64b_rw_1920.png?h=fe14460942d21e1f95684fe82cdd7fcb",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f675479f-88da-49b7-8eda-648c64d36c2e_rw_1920.png?h=425e398c7b957f731494bef1d8a8b447",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/bcb4cc7c-963e-440f-a9ee-c77246bacb83_rw_1920.png?h=b4b1dac1f1ec8b798069fb7c5a7d410b",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/25df06a9-ad87-450a-a884-da59523fc8c8_rw_1920.png?h=3488f37b04cae864e0b7391af37b6628",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/51a5caf7-f6a4-456a-8493-9227201458b3_rw_1920.png?h=727114cb84c2d77727d7571ccb713cac",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/586f02d0-5e17-416f-9596-6bed026af97b_rw_1920.png?h=18995f039133caa02a8bfca625443d37",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/f324df60-e7ed-40d4-ada7-6c72d77b0a1a_rw_1920.png?h=192295f36c15507f10868847583c78fc",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/8c723e2c-7894-4fc7-bfa1-1dba0f52120d_rw_1920.png?h=7ba1cef94b099f6ccbb006515f943cdb",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/fb72768e-3350-4f83-a32b-586fd62c4a13_rw_1920.png?h=a2360a3e41ed1288d3747dfae768956a",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/8aaf2be5-80ba-45a7-b6cb-0a51a6e73f6d_rw_1920.png?h=15fbd5cceee62dba082fe2c8668b4aac",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/b5fed19a-a6ca-48ff-adf3-52270f6c0c9b_rw_1920.png?h=2878d9b71f3ecd86b777366aabba3f2f",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/399c1b13-01cf-45b7-aa90-fe8d964245cc_rw_1920.png?h=c19350ad47216ddfae0a2fdb17041f3d",
+            "https://cdn.myportfolio.com/4343f9cf-01e7-4955-a019-d1652605aa0f/bfd7e8fb-f6a0-45b9-ac0c-6d3bd2278d74_rw_1920.png?h=c1be8db1637c24aa1ff8d059d0dd312e"
+    ]
 }

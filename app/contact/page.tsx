@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image'
 import headshot from '@/public/images/contactPage/headshot.jpg'
+import { font_seconday } from '../lib/fonts';
 
 export default function ContactPage () {
 
@@ -32,20 +33,21 @@ export default function ContactPage () {
     return (
       <>
         <div className="relative h-60 w-full overflow-y-hidden z-[-1]">
-          <h2 className='absolute z-1 w-[40%] right-5 pt-7 font-semibold tracking-[0.5] drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]'>
+          <h2 className='absolute z-1 w-[40%] right-5 pt-9 font-semibold tracking-[0.5] drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]'>
             I’m a Florida-based photographer and designer passionate about bringing creative stories to life.
           </h2>
           <Image
             src='/images/photoWheel/photo1.jpg'
             alt=''
             fill
-            className='blur-xs object-cover'
+            className='blur-xs object-cover brightness-60'
           />
         </div>
 
 
-            <div className="relative w-[50%] mt-[-40%] ml-5 ">
-            <h2 className='absolute top-[50%] right-[-75%] text-6xl font-serif italic drop-shadow-[0_2px_2px_rgba(0,0,0,0.8) z-10'>Karina</h2>
+        <div className='absolute w-full'>
+                  <div className="relative w-[50%] mt-[-50%] ml-5 ">
+            <h2 className={`${font_seconday.className} absolute top-[46%] right-[-70%] text-[80px] italic font-bold drop-shadow-[0_2px_2px_rgba(0,0,0,0.8) z-10`}>Karina</h2>
             <Image
                 src={headshot}
                 alt="headshot"
@@ -54,26 +56,27 @@ export default function ContactPage () {
                 className='brightness-80'
             />
         </div>
+        </div>
         
       
-      <div className='bg-black pt-15 pb-8 mt-[-40] px-4'>
-          <h1 className='text-4xl font-serif'>Contact</h1>
-          <h2 className='pt-2 pb-4'>Interested in working together? Fill out the form below and I'll get back to you as soon as possible.</h2>
+      <div className='bg-black pt-16 pb-10 px-4'>
+          <h1 className='text-4xl'>Contact</h1>
+          <h2 className='pt-4 pb-6'>Interested in working together? Fill out the form below and I'll get back to you as soon as possible.</h2>
          
           <form onSubmit={handleSubmit} className='relative bg-black'>
          
           <div className='flex h-10 gap-4'>
           <input type="text" name="name" placeholder='Name' 
-          className='border-white border-2 w-[40%] pl-3 rounded-lg'
+          className='border-white border-b-2 w-[40%] pl-3 rounded-lg'
           />
           <input type="email" name="email" placeholder='Email Address'
-          className='border-white border-2 w-[60%] pl-3 rounded-lg'
+          className='border-white border-b-2 w-[60%] pl-3 rounded-lg'
           />
           </div>
 
           <textarea name="message" placeholder='Write a short message...'
-          className='w-full mt-4 border-white border-2 pl-3 pt-2 rounded-lg' rows={3}></textarea>
-          <button type="submit" className='absolute bottom-5 right-3.5 border-2 w-7 h-7 rounded-lg'>{`>`}</button>
+          className='w-full mt-4 border-white border-b-2 pl-3 pt-2 rounded-lg' rows={3}></textarea>
+          <button type="submit" className='absolute bottom-5 right-3.5 border-b-2 w-7 h-7 rounded-lg'>{`>`}</button>
         </form>
       </div>
 
