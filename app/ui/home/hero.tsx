@@ -19,7 +19,7 @@ export default function Hero() {
 						priority
 						className='w-40 h-24'
 					/>
-					<h2 className={`${font_seconday.className} text-xl -ml-10 mt-1.5 text-white text-md tracking-wider text-right leading-15`}>Photography & Graphic Arts</h2>
+					<h2 className={`text-xl -ml-10 mt-1.5 text-white text-md tracking-wider text-right leading-15`}>Photography & Graphic Arts</h2>
 				</div>
 			</div>
 

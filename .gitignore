@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#replit
+*.replit
+replit.nix
+.repl
+.replhistory
+
+# VSCode
+*.code-workspace
