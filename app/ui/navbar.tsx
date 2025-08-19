@@ -27,7 +27,10 @@ export default function Navbar() {
     const pathname = usePathname()
 
     return(
-        <div className='relative w-[100vw] h-10 lg:h-[5vh] flex justify-around z-100 bg-black lg:text-[3vh] text-neutral-400'>
+        <div className={`
+        relative w-[100vw] h-10 flex justify-around z-100 bg-black text-neutral-400
+        lg:h-[5vh] lg:text-[3vh]
+        `}>
             {links.map((link, i) => {
                 return (
                 <Link

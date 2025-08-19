@@ -9,57 +9,56 @@ import { font_seconday } from "@/app/lib/fonts";
 
 export default function Hero() {
 	return (
-		<div>
+		<>
 
-			<div className="w-full h-16 lg:h-[16vh] pt-1 pb-3 flex justify-center content-center bg-black/60">
-				<div className="relative flex z-10">
+			<div className="w-full h-16 lg:h-[16vh] pt-1 bg-black/60 flex justify-center">
+				<div className="relative z-10 h-[160%] aspect-5/3 -ml-[42%]">
 					<Image
 						src={logo}
 						alt="logo"
 						priority
-						className='w-40 h-24 lg:w-[24vw] lg:h-[24vh]'
+						fill
 					/>
-					<h2 className={`text-xl -ml-10 mt-5 text-white tracking-wider lg:text-[6vh] lg:-ml-[6vw] lg:mt-[4vh]`}>Photography & Graphic Arts</h2>
+					<h2 className={`absolute top-[22%] left-[74%] w-max text-xl text-white tracking-wider`}>Photography & Graphic Arts</h2>
 				</div>
 			</div>
 
 			<div className='bg-black py-1 flex flex-col lg:py-[0.5vh] lg:gap-[0.5vh] lg:flex-row'>
-			<div className="relative w-full h-54 overflow-hidden lg:h-[40vh] lg:w-0 lg:flex-2">
 
 						<Image
 								src={SplashImage}
 								alt="spalshImage"
 								priority
-								placeholder="blur"
-								className="-mt-8 object-cover w-full lg:-mt-[24vh]"
+								className="w-full h-54 object-cover object-bottom"
 							/>
-			</div>
 
-			<div className="w-full h-18 flex gap-1 lg:gap-[0.5vh] pt-1 lg:pt-0 lg:h-[40vh] lg:w-0 lg:flex-1 lg:flex-col">
+			<div className={`
+			w-full h-18 flex gap-1 pt-1
+			lg:gap-[0.5vh] lg:pt-0 lg:h-[40vh] lg:w-0 lg:flex-1 lg:flex-col lg:flex-wrap
+			`}>
 					<Image
 						src={reelPhoto1}
 						alt="spalshImage"
 						priority
-						placeholder="blur"
-						className="h-full object-cover lg:h-0 lg:flex-1"
+						className="h-full object-cover lg:w-[50%]"
 					/>
 					<Image
 						src={reelPhoto2}
 						alt="spalshImage"
 						priority
 						placeholder="blur"
-						className="h-full object-cover lg:h-0 lg:flex-1"
+						className="h-full object-cover lg:h-0 lg:flex-1 lg:w-[50%]"
 					/>
 					<Image
 						src={reelPhoto3}
 						alt="spalshImage"
 						priority
 						placeholder="blur"
-						className="h-full object-cover lg:hidden"
+						className="h-full object-cover lg:h-0 lg:flex-1 lg:w-[50%]"
 					/>
 
 			</div>
 			</div>
-		</div>
+		</>
 			)
 			}
