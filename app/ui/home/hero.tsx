@@ -29,7 +29,7 @@ export default function Hero() {
 								src={SplashImage}
 								alt="spalshImage"
 								priority
-								className="w-full h-54 object-cover object-bottom lg:flex-1"
+								className="w-full h-54 object-cover lg:flex-1"
 							/>
 
 			<div className={`
